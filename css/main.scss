@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 $font-weights: ("regular": 400, "medium": 500, "bold": 700);
 
+.working{
+    background: rgb(219, 80, 80);
+    border-radius: 3%;
+    margin-top: 30%;
+    color: rgb(0, 56, 19);
+}
+
+
 //nav style
 
 .nav{
