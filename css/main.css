@@ -9,8 +9,7 @@
 .nav {
   background-color: black;
   border-radius: 4.5px;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
   list-style-type: none;
   overflow: hidden;
   font-size: 30px;
@@ -25,16 +24,6 @@
   text-align: center;
 }
 
-@-webkit-keyframes welcome {
-  from {
-    color: #0CC4F9;
-    font-size: 21px;
-  }
-  to {
-    color: #00057A;
-  }
-}
-
 @keyframes welcome {
   from {
     color: #0CC4F9;
@@ -44,17 +33,6 @@
     color: #00057A;
   }
 }
-
-@-webkit-keyframes bubbles {
-  from {
-    padding-top: 10%;
-    opacity: 0;
-  }
-  to {
-    padding-top: 0%;
-  }
-}
-
 @keyframes bubbles {
   from {
     padding-top: 10%;
@@ -64,9 +42,8 @@
     padding-top: 0%;
   }
 }
-
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   list-style: none;
 }
 
@@ -82,8 +59,7 @@ body {
 
 .welcome {
   position: absolute;
-  -webkit-animation: welcome 0.9s cubic-bezier(1, 0.33, 0.58, 1);
-          animation: welcome 0.9s cubic-bezier(1, 0.33, 0.58, 1);
+  animation: welcome 0.9s cubic-bezier(1, 0.33, 0.58, 1);
   text-align: center;
   top: 0;
   padding-top: 700px;
@@ -95,8 +71,7 @@ body {
   text-decoration: none;
   list-style-type: none;
   overflow: hidden;
-  -webkit-animation: bubbles 0.9s cubic-bezier(1, 0.33, 0.58, 1);
-          animation: bubbles 0.9s cubic-bezier(1, 0.33, 0.58, 1);
+  animation: bubbles 0.9s cubic-bezier(1, 0.33, 0.58, 1);
 }
 
 .round {
@@ -141,8 +116,7 @@ body {
 }
 
 .outer4 {
-  -webkit-animation: bubbles 0.9s cubic-bezier(1, 0.33, 0.58, 1);
-          animation: bubbles 0.9s cubic-bezier(1, 0.33, 0.58, 1);
+  animation: bubbles 0.9s cubic-bezier(1, 0.33, 0.58, 1);
   position: absolute;
   top: 115%;
 }
@@ -158,30 +132,34 @@ body {
   .round2 {
     display: none;
   }
+
   .round1 {
     opacity: 0.2;
     height: 480px;
     width: 480px;
   }
+
   .round3 {
     opacity: 0.4;
     height: 690px;
     width: 690px;
   }
+
   .outer4 {
     padding-left: 0%;
   }
 }
-
 @media (max-width: 587px) {
   .textscollover {
     padding-top: 4px;
     margin-right: auto;
     font-size: 43px;
   }
+
   .outer4 {
     top: 140%;
   }
+
   .round4 {
     width: auto;
     height: auto;
@@ -189,8 +167,6 @@ body {
     overflow: hidden;
   }
 }
-
 .section2 {
   background-color: #383838;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
