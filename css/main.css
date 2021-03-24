@@ -33,6 +33,11 @@
     color: #00057A;
   }
 }
+@keyframes welcome_nocol {
+  from {
+    font-size: 10px;
+  }
+}
 @keyframes bubbles {
   from {
     padding-top: 10%;
@@ -52,14 +57,15 @@ body {
 }
 
 .textscollover {
-  padding-top: 160px;
+  animation: welcome_nocol 0.95s cubic-bezier(1, 0.33, 0.58, 1);
+  padding-top: 40px;
   text-align: center;
-  font-size: 37px;
+  font-size: 43px;
   color: #0CC4F9;
 }
 
 .welcome {
-  animation: welcome 0.9s cubic-bezier(1, 0.33, 0.58, 1);
+  animation: welcome 0.95s cubic-bezier(1, 0.33, 0.58, 1);
   text-align: center;
   top: 0;
   color: #00057A;
@@ -107,32 +113,46 @@ body {
 .outer4 {
   animation: bubbles 0.9s cubic-bezier(1, 0.33, 0.58, 1);
   position: absolute;
-  bottom: -120px;
+  bottom: -60px;
   display: flex;
   justify-content: center;
 }
 
 .round4 {
-  height: 500px;
-  width: 500px;
+  animation: bubbles 0.9s cubic-bezier(1, 0.33, 0.58, 1);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 1%;
+  height: 400px;
+  width: 400px;
   opacity: 0.8;
   background-color: #184FF2;
 }
 
 @media (max-width: 587px) {
   .textscollover {
-    position: relative;
-    bottom: auto;
-    padding-top: 4px;
+    bottom: 5%;
+    padding-top: 0px;
     margin-right: auto;
     font-size: 43px;
   }
 
+  .outer4 {
+    position: absolute;
+    top: 80%;
+    border-radius: 4%;
+    bottom: auto;
+  }
+
   .round4 {
+    border-radius: 4%;
     width: auto;
     height: auto;
-    border-radius: 5px;
-    overflow: hidden;
+  }
+
+  .logo {
+    background: url(../assets/photo_2021-02-24_18-04-50.jpg) center 30% no-repeat;
   }
 }
 .section2 {
