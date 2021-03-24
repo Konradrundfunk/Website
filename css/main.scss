@@ -61,20 +61,21 @@ body{
     list-style: none;
 }
 .logo{
-    background:url(../assets/photo_2021-02-24_18-04-50.jpg) center 18% no-repeat;
+    background:url(../assets/photo_2021-02-24_18-04-50.jpg) center 23% no-repeat;
 }
 
 .textscollover{
     padding-top: 160px;
     text-align: center;
     font-size: 37px;
+    color: map-get($map:$color_1 , $key:"color4" );
 }
 .welcome{
-    position: absolute;
+    //position: absolute;
     animation: welcome 0.9s cubic-bezier(1, 0.33, 0.58, 1);
     text-align: center;
     top:0;
-    padding-top: 700px;
+    //padding-top: 700px;
     color:map-get($color_1 , "text_dark" );
     font-size: 60px;
 
@@ -91,79 +92,56 @@ body{
 
 // styling for all circles outer is for position inner for styling the objects
 .outer1{
-    padding-left: 20%;
+    position: relative;
+    padding-left: 10%;
     overflow: hidden;
 }
 .round1{
-    opacity: 0.4;
-    height: 370px;
-    width: 370px;
+    opacity: 0.2;
+    height: 470px;
+    width: 470px;
     background-color: map-get($map:$color_1 , $key:"color1" );
 }
-.outer2{
-    padding-left: 0.1%;
-}
-.round2{
-    background-color: map-get($map:$color_1 , $key:"color2" );
-    position: absolute;
-    width: 323px;
-    height: 323px;
-    opacity: 0.7;
-}
+
 .outer3{
+    position: relative;
     padding-left: 45%;
-    margin-top: 340px;
+    margin-top: 10px;
     overflow: hidden;
 }
 .round3{
-    height: 400px;
-    width: 400px;
-    opacity: 0.5;
-    background-color: map-get($map:$color_1 , $key:"color3" );
+    height: 570px;
+    width: 570px;
+    opacity: 0.4;
+    background-color: map-get($map:$color_1 , $key:"color4" );
 }
 .outer4{
+    //position: fixed; 
     animation: bubbles 0.9s cubic-bezier(1, 0.33, 0.58, 1);    
     position: absolute;
-    top: 115%;
+    bottom: -120px;
+    display: flex;
+    justify-content: center;
 }
 .round4{
     height: 500px;
     width: 500px;
-    opacity: 0.6;
-    background-color: map-get($map:$color_1 , $key:"color4" );
+    opacity: 0.8;
+    background-color: map-get($map:$color_1 , $key:"color2" );
 }
 
 //small devices
 
-@media (max-width:1000px){
-    .round2{
-        display: none;
-    }
-    .round1{
-        opacity: 0.2;
-        height: 480px;
-        width: 480px;    
-    }
-    .round3{
-        opacity: 0.4;
-        height: 690px;
-        width: 690px;    
-    }
-    .outer4{
-        padding-left: 0%;
-    }
-
-}
 @media (max-width:587px){
     .textscollover{
+        position: relative; 
+        bottom: auto;
         padding-top: 4px;
         margin-right: auto;
         font-size: 43px;
 
     }
-    .outer4{
-        top: 140%;
-    }
+
     .round4{
         width: auto;
         height: auto;
