@@ -156,6 +156,10 @@ body {
   .logo {
     background: url(../assets/photo_2021-02-24_18-04-50.jpg) center 30% no-repeat;
   }
+
+  .round3 {
+    opacity: 0;
+  }
 }
 .section2 {
   background-color: #383838;
