@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .working {
-  background: #db5050;
+  background: #f18686;
+  position: fixed;
   border-radius: 3%;
-  margin-top: 30%;
-  color: #003813;
+  bottom: 0px;
+  color: #0b0069;
+  text-align: center;
 }
 
 .nav {
