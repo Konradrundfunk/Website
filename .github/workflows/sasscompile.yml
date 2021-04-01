@@ -45,4 +45,4 @@ jobs:
           # Path(s) compiled CSS should be saved, eg. ~/workspace_sass/assets/css/main.css
           destination: 
           # Array (Action splits on ":"), of directories to look under for imports and used modules
-            ./css
+            ./css/
