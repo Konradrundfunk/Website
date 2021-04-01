@@ -168,11 +168,11 @@ body {
   align-content: center;
   overflow: hidden;
   left: 40%;
-  bottom: 36px;
+  bottom: 143px;
   opacity: 0.3;
-  height: 125px;
-  width: 125px;
-  background-color: #02FAE0;
+  height: 107px;
+  width: 107px;
+  background-color: #1EA08E;
   filter: blur(4px);
   -webkit-filter: blur(6px);
 }
@@ -181,11 +181,11 @@ body {
   position: relative;
   align-content: center;
   overflow: hidden;
-  left: 30%;
-  bottom: 132px;
-  opacity: 0.4;
-  height: 299px;
-  width: 299px;
+  left: 20%;
+  bottom: 73px;
+  opacity: 0.5;
+  height: 131px;
+  width: 131px;
   background-color: #02FAE0;
   filter: blur(4px);
   -webkit-filter: blur(6px);
@@ -195,12 +195,12 @@ body {
   position: relative;
   align-content: center;
   overflow: hidden;
-  left: 50%;
-  bottom: 42px;
-  opacity: 0.5;
-  height: 204px;
-  width: 204px;
-  background-color: #1EA08E;
+  left: 10%;
+  bottom: 126px;
+  opacity: 0.1;
+  height: 176px;
+  width: 176px;
+  background-color: #00564C;
   filter: blur(4px);
   -webkit-filter: blur(6px);
 }
@@ -209,12 +209,12 @@ body {
   position: relative;
   align-content: center;
   overflow: hidden;
-  left: 50%;
-  bottom: 22px;
-  opacity: 0.1;
-  height: 260px;
-  width: 260px;
-  background-color: #02FAE0;
+  left: 20%;
+  bottom: 35px;
+  opacity: 0.2;
+  height: 276px;
+  width: 276px;
+  background-color: #003C35;
   filter: blur(4px);
   -webkit-filter: blur(6px);
 }
@@ -223,12 +223,12 @@ body {
   position: relative;
   align-content: center;
   overflow: hidden;
-  left: 20%;
-  bottom: 65px;
-  opacity: 0.5;
-  height: 220px;
-  width: 220px;
-  background-color: #1EA08E;
+  left: 10%;
+  bottom: 123px;
+  opacity: 0.3;
+  height: 158px;
+  width: 158px;
+  background-color: #02FAE0;
   filter: blur(4px);
   -webkit-filter: blur(6px);
 }
@@ -238,11 +238,11 @@ body {
   align-content: center;
   overflow: hidden;
   left: 10%;
-  bottom: 94px;
-  opacity: 0.1;
-  height: 101px;
-  width: 101px;
-  background-color: #00564C;
+  bottom: 52px;
+  opacity: 0.6;
+  height: 283px;
+  width: 283px;
+  background-color: #003C35;
   filter: blur(4px);
   -webkit-filter: blur(6px);
 }
@@ -251,12 +251,12 @@ body {
   position: relative;
   align-content: center;
   overflow: hidden;
-  left: 50%;
-  bottom: 99px;
-  opacity: 0.3;
-  height: 150px;
-  width: 150px;
-  background-color: #00564C;
+  left: 20%;
+  bottom: 148px;
+  opacity: 0.5;
+  height: 288px;
+  width: 288px;
+  background-color: #1EA08E;
   filter: blur(4px);
   -webkit-filter: blur(6px);
 }
@@ -265,11 +265,11 @@ body {
   position: relative;
   align-content: center;
   overflow: hidden;
-  left: 10%;
-  bottom: 148px;
-  opacity: 0.3;
-  height: 206px;
-  width: 206px;
+  left: 20%;
+  bottom: 109px;
+  opacity: 0.5;
+  height: 291px;
+  width: 291px;
   background-color: #1EA08E;
   filter: blur(4px);
   -webkit-filter: blur(6px);
