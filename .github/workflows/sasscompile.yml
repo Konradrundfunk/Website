@@ -41,7 +41,7 @@ jobs:
         with:
           # Relative path(s) to SASS or SCSS file, eg. _scss/main.scss
           source: 
-            ./scss/*.scss
+            ./scss/
           # Path(s) compiled CSS should be saved, eg. ~/workspace_sass/assets/css/main.css
           destination: 
           # Array (Action splits on ":"), of directories to look under for imports and used modules
