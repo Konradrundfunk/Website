@@ -1,7 +1,21 @@
-<%- partial("html_assets/_header") %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/33392939.png">
+    <title>Konradrundfunk</title>
+</head>
 <body>
     <!-- Include _nav.ejs -->
-    <%- partial("html_assets/_nav") %>
+    <nav class="nav">
+    <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./satellites.html">Sats</a></li>
+    </ul>
+</nav>
 
     <!-- Section 1-->
     <div class="logo animate">
@@ -26,7 +40,8 @@
             <div class="quadrat8"></div>
         </div>
     </div>
-    <%- partial("html_assets/_working_disclamer.ejs") %>
+    <h3 class="working" style="z-index: 10;" >I am still working on this website, so if u got any questions please E-Mail me! <a href="mailto:konrad@eichsfeld.net">konrad@eichsfeld.net</a> </h3>
+
 
 </body>
 </html>
